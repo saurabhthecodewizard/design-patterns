@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" modified="2024-04-24T13:30:15.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="A0XwiDnybp4rn9V3xOf-" version="24.3.0" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1728" dy="522" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="MjkUMTnEDldP0goWYT3l-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 12px;&quot;&gt;&lt;i style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;TaskBuilder&lt;/b&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-style: solid; font-size: 12px;&quot;&gt;&lt;hr style=&quot;border-style: solid; font-size: 12px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;name(name): TaskBuilder&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;description(description): TaskBuilder&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;priority(priority): TaskBuilder&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;assignee(assignee): TaskBuilder&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 12px;&quot;&gt;build(): Task&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Lucida Console;glass=0;rounded=0;fontSize=12;horizontal=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="397" y="578" width="292" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-18" value="Director" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Lucida Console;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="78" y="592" width="192" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-19" value="builder: TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-18">
+          <mxGeometry y="26" width="192" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-18">
+          <mxGeometry y="52" width="192" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-22" value="createAutoTask(): Task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-18">
+          <mxGeometry y="60" width="192" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-21" value="createManualTask(): Task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-18">
+          <mxGeometry y="86" width="192" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-23" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MjkUMTnEDldP0goWYT3l-18" target="MjkUMTnEDldP0goWYT3l-13">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="273" y="461" as="sourcePoint" />
+            <mxPoint x="433" y="461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-29" value="AutoTaskBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Lucida Console;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="144" y="788" width="287" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-34" value="&lt;div&gt;name = &#39;Default&#39;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="26" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-35" value="description = &#39;Default&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="52" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-36" value="priority = 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="78" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-30" value="assignee = &#39;Unassigned&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="104" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="130" width="287" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-32" value="name(name): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="138" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-37" value="description(description): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="164" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-38" value="priority(priority): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="190" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-39" value="assignee(assignee): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="216" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-33" value="build(): Task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-29">
+          <mxGeometry y="242" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-40" value="ManualTaskBuilder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Lucida Console;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="599" y="788" width="287" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-41" value="&lt;div&gt;name&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="26" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-42" value="description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="52" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-43" value="priority" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="78" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-44" value="assignee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="104" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="130" width="287" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-46" value="name(name): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="138" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-47" value="description(description): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="164" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-48" value="priority(priority): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="190" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-49" value="assignee(assignee): TaskBuilder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="216" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-50" value="build(): Task" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-40">
+          <mxGeometry y="242" width="287" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MjkUMTnEDldP0goWYT3l-29" target="MjkUMTnEDldP0goWYT3l-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="273" y="770" as="sourcePoint" />
+            <mxPoint x="433" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-52" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MjkUMTnEDldP0goWYT3l-40" target="MjkUMTnEDldP0goWYT3l-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="422" y="798" as="sourcePoint" />
+            <mxPoint x="488" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-53" value="Task1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Lucida Console;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="183" y="1140" width="174.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-54" value="name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-53">
+          <mxGeometry y="26" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-55" value="description: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-53">
+          <mxGeometry y="52" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-56" value="priority: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-53">
+          <mxGeometry y="78" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-57" value="assignee: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-53">
+          <mxGeometry y="104" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-58" value="Task2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Lucida Console;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655.25" y="1140" width="174.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-59" value="name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-58">
+          <mxGeometry y="26" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-60" value="description: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-58">
+          <mxGeometry y="52" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-61" value="priority: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-58">
+          <mxGeometry y="78" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-62" value="assignee: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="MjkUMTnEDldP0goWYT3l-58">
+          <mxGeometry y="104" width="174.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-63" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MjkUMTnEDldP0goWYT3l-29" target="MjkUMTnEDldP0goWYT3l-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="628" y="922" as="sourcePoint" />
+            <mxPoint x="678" y="872" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MjkUMTnEDldP0goWYT3l-64" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MjkUMTnEDldP0goWYT3l-40" target="MjkUMTnEDldP0goWYT3l-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289" y="1066" as="sourcePoint" />
+            <mxPoint x="284" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
