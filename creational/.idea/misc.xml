@@ -10,7 +10,13 @@
         <option value="$PROJECT_DIR$/prototype/pom.xml" />
         <option value="$PROJECT_DIR$/abstract-factory/pom.xml" />
         <option value="$PROJECT_DIR$/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/adapter/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/adapter/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">
