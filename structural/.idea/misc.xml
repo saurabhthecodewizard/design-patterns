@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/bridge/pom.xml" />
         <option value="$PROJECT_DIR$/decorator/pom.xml" />
         <option value="$PROJECT_DIR$/facade/pom.xml" />
+        <option value="$PROJECT_DIR$/composite/pom.xml" />
       </list>
     </option>
   </component>
