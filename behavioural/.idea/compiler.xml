@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chain-of-responsibility" />
         <module name="command" />
+        <module name="interpreter" />
       </profile>
     </annotationProcessing>
   </component>
