@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/interpreter/pom.xml" />
         <option value="$PROJECT_DIR$/mediator/pom.xml" />
         <option value="$PROJECT_DIR$/iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/memento/pom.xml" />
       </list>
     </option>
   </component>
