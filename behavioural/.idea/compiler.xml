@@ -12,6 +12,7 @@
         <module name="interpreter" />
         <module name="state" />
         <module name="mediator" />
+        <module name="strategy" />
         <module name="chain-of-responsibility" />
         <module name="command" />
       </profile>
