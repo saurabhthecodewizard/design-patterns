@@ -10,6 +10,7 @@
         <module name="iterator" />
         <module name="memento" />
         <module name="interpreter" />
+        <module name="state" />
         <module name="mediator" />
         <module name="chain-of-responsibility" />
         <module name="command" />
