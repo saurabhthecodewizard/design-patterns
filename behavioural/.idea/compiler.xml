@@ -10,6 +10,7 @@
         <module name="observer" />
         <module name="iterator" />
         <module name="memento" />
+        <module name="null-object" />
         <module name="interpreter" />
         <module name="state" />
         <module name="mediator" />
